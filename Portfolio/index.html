@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Portfolio </title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7b4db0ed66.js" crossorigin="anonymous"></script>
@@ -11,118 +12,257 @@
    <div id="header">
         <div class="container">
              <nav>
-                <img src="Name.png" class="logo">
-                <ul id="sidemenu">
-                    <li> <a href="#header">Home </a></li>
+                <img src="Name1.jpg" class="logo">
+                <ul class="navbar" id="sidemenu">
+                    <!-- <li> <a href="#header">Home </a></li> -->
                     <li> <a href="#about">About</a></li>
-                    <li> <a href="#services">Services</a></li>
-                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#achievements">Achievements</a></li>
+                    <li> <a href="#experiences">Experiences</a></li>
+                    <li> <a href="#project">Projects</a></li>
                     <li> <a href="#contact">Contact</a></li> 
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
              </nav>
-             <div class="header-text">
+             <div class="header-text intro-text">
                 <p>Software Developer</p>
                 <h1>Hi, I'm <span>A.R.K Shalini</span></h1>
+                <p>Ex - SDE Intern @Amazon, @Walmart<p>
              </div>
         </div>
    </div> 
 
    <!----about---->
-   <div id="about">
+   <div id="about" style="scroll-margin-top: -100px;">
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="">
+                <img src="Background_Image_Tab22.jpg">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p> bsadshfjwejrebfbsbfbsdmfsf</p>
+                <p>A creative problem solver with a passion for crafting clean, user-friendly interfaces. 
+                Brings ideas to life through seamless web experiences and pixel-perfect designs. 
+                Consistency in coding and daily problem-solving sharpen technical skills and discipline. 
+                Thrives in team environments and believes in writing code that’s efficient, readable, and built to last.
+                </p>
+                <h2 class="edu-title">Education</h2>
+                <div class="education-item">
+                    <div class="edu-logo">
+                        <img src="KCE.jpeg" alt="Karpagam College Logo" />
+                    </div>
+                    <div class="edu-details">
+                        <h3>Karpagam College of Engineering</h3>
+                        <p>Bachelor of Engineering – Electronics and Communication Engineering</p>
+                        <p>2021 – 2025 | GPA: 8.18</p>
+                        <p>Coimbatore, Tamil Nadu, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents  active-tab" id="skills">
+
+
+<!-- Skills -->
+ <div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-3" id="skills">
+                <h1 class="sub-title">Skills</h1>
+                <!-- <div class="tab-contents  active-tab" id="skills"> -->
                     <ul>
-                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                         <section class="skills-section">
+                            <!-- Languages -->
+                            <h2>Languages</h2>
+                            <div class="icon-grid">
+                            <div class="icon-box"><img src="C Programming.jpeg" alt="C" /><p>C</p></div>
+                            <div class="icon-box"><img src="Java.png" alt="Java" /><p>Java</p></div>
+                            <div class="icon-box"><img src="SQL.png" alt="SQL" /><p>SQL</p></div>
+                            <div class="icon-box"><img src="HTML.png" alt="HTML5" /><p>HTML5</p></div>
+                            <div class="icon-box"><img src="CSS.jpeg" alt="CSS3" /><p>CSS3</p></div>
+                            <div class="icon-box"><img src="JS.png" alt="JavaScript" /><p>JavaScript</p></div>
+                            </div>
+
+                            <!-- Tools -->
+                            <h2>Tools</h2>
+                            <div class="icon-grid">
+                            <div class="icon-box"><img src="git.png" alt="Git" /><p>Git</p></div>
+                            <div class="icon-box"><img src="github.png" alt="GitHub" /><p>GitHub</p></div>
+                            <div class="icon-box"><img src="AWS.png" alt="AWS" /><p>AWS</p></div>
+                            <div class="icon-box"><img src="Figma.png" alt="Figma" /><p>Figma</p></div>
+                            <div class="icon-box"><img src="canva.jpeg" alt="Canva" /><p>Canva</p></div>
+                            </div>
+
+                            <!-- Web Development -->
+                            <h2>Web Development</h2>
+                            <div class="icon-grid">
+                            <div class="icon-box"><img src="Mongodb.png" alt="MongoDB" /><p>MongoDB</p></div>
+                            <div class="icon-box"><img src="ExpressJS.png" alt="ExpressJS" /><p>ExpressJS</p></div>
+                            <div class="icon-box"><img src="ReactJS.png" alt="ReactJS" /><p>ReactJS</p></div>
+                            <div class="icon-box"><img src="NodeJS.png" alt="NodeJS" /><p>NodeJS</p></div>
+                            <div class="icon-box"><img src="NextJS.png" alt="NextJS" /><p>NextJS</p></div>
+                            <div class="icon-box"><img src="TailwindCss.png" alt="TailwindCSS" /><p>TailwindCSS</p></div>
+                            <div class="icon-box"><img src="Bootstrap.png" alt="Bootstrap" /><p>Bootstrap</p></div>
+                            <div class="icon-box"><img src="SpringBoot.png" alt="SpringBoot" /><p>SpringBoot</p></div>
+                            </div>
+
+                            <!-- Mobile App Development -->
+                            <h2>Mobile App Development</h2>
+                            <div class="icon-grid">
+                            <div class="icon-box"><img src="Flutter.png" alt="Flutter" /><p>Flutter</p></div>
+                            <div class="icon-box"><img src="Dart.png" alt="Dart" /><p>Dart</p></div>
+                            </div>
+                        </section>             
                     </ul>
+                <!-- </div> -->
+            </div>
+            <div class="about-col-4" id="achievements">
+                <h1 class="sub-title">Achievements</h1>
+                <div class="achievement-item">
+                <div class="achievement-logo">
+                    <img src="Top50.jpeg" alt="Top 50">
                 </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/ios apps</li>
-                    </ul>
+                <div class="achievement-details">
+                    <p>Selected among the Top 50 in Codehers at Walmart Global Technology</p>
                 </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/ios apps</li>
-                    </ul>
+                </div>
+
+                <div class="achievement-item">
+                <div class="achievement-logo">
+                    <img src="Finalist.jpeg" alt="Finalist">
+                </div>
+                <div class="achievement-details">
+                    <p>Finalist at TechGig Code Gladiators 2024</p>
+                </div>
+                </div>
+
+                <div class="achievement-item">
+                <div class="achievement-logo">
+                    <img src="Goodies.jpg" alt="Goodies">
+                </div>
+                <div class="achievement-details">
+                    <p>Received goodies from Leetcode, GeeksForGeeks, Unstop for Consistency</p>
+                </div>
                 </div>
             </div>
         </div>
     </div>
-   </div>
+</div>
 
    <!-- ------------services---------- -->
-   <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+    <div id="experiences">
+        <h1 class="sub-title">Experience</h1>
+        <div class="experience-container">
+            
+            <div class="experience-card" style="background-color: #e63956">
+                <img src="amazon.11.png" alt="Amazon Logo" />
+                <h3 class="card-heading">Software Development Engineer - Intern (6 Months)</h3>
+                <div class="experience-content">
+                <p>Implemented a customer promotions platform with frontend UI, backend integration, and DynamoDB storage</p>
+                <a href="#" class="certificate-link" target="_blank">Internship Certificate ↗</a>
+                </div>
+            </div>
+
+            <div class="experience-card" style="background-color: #e63956">
+                <img src="walmart 145.png" alt="Walmart Logo" />
+                <h3 class="card-heading">Software Development Engineer - Intern (2 Months)</h3>
+                <div class="experience-content">
+                <p>Implemented an AB Experiment by developing a React-based webpage with interactive forms and GraphQL integration.</p>
+                <a href="#" class="certificate-link" target="_blank">Internship Certificate ↗</a>
+                </div>
+            </div>
+            </div>
+</div>
+  <!-- <div class="container">
+    <h1 class="sub-title">Experience</h1>
+    <div class="services-list">
+      <div>
+        <div class="company-logo">
+          <img src="amazon.11.png">
+        </div>
+        <h2>Software Development Engineer - Intern (6 Months)</h2>
+        <p>Implemented a customer promotions platform with frontend UI, backend integration, and DynamoDB storage</p>
+        <div class="button-wrapper">
+        <a href="https://your-link.com" target="_blank">
+          <a href="your-certificate-link" target="_blank" class="certificate-btn">
+  Internship Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+
+        </a>
+        </div>
+      </div>
+      <div>
+        <div class="company-logo">
+          <img src="walmart 145.png">
+        </div>
+        <h2>Software Development Engineer - Intern (2 Months)</h2>
+        <p>Implemented an AB Experiment by developing a React-based webpage with interactive forms and GraphQL integration.</p>
+        <div class="button-wrapper">
+        <a href="https://your-link.com" target="_blank">
+          <a href="your-certificate-link" target="_blank" class="certificate-btn">
+  Internship Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+
+        </a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+   <!-- <div id="experiences">
+    <div class="container">
+        <h1 class="sub-title">Experience</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>bewrhgdudshflijdsokf</p>
-                <a href="#">Learn more</a>
+                <div class="company-logo">
+                <img src="amazon.11.png">
+                </div>
+                <h2>Software Development Engineer - Intern (6 Months)</h2>
+                <p>Implemented a customer promotions platform with frontend UI, backend integration, and DynamoDB storage</p>
+                <a href="#">Internship Certificate</a>
             </div>
             <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>UI/UX Design</h2>
-                <p>bewrhgdudshflijdsokf</p>
-                <a href="#">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store-ios"></i>
-                <h2>App Design</h2>
-                <p>bewrhgdudshflijdsokf</p>
-                <a href="#">Learn more</a>
+                <div class="company-logo">
+                <img src="walmart 145.png">
+                </div>
+                <h2>Software Development Engineer - Intern (2 Months)</h2>
+                <p>Implemented an AB Experiment by developing a React-based webpage with interactive forms and GraphQL integration.</p>
+                <a href="#">Internship Certificate</a>
             </div>
         </div>
     </div>
-   </div>
-<!-- --------portfolio------- -->
-<div id="portfolio">
+   </div> -->
+<!-- --------project------- -->
+<div id="project" style="scroll-margin-top: -100px;">
     <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="Profile_Background.png">
+                <img src="E-Commerce1.png">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>hjsgfusdf</p>
+                    <h3>E-Commerce Website</h3>
+                    <p>Brings the marketplace to your fingertips—shop, pay and get it delivered, all in one seamless flow.</p>
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="Food_Ordering_App.png">
+                <img src="NF1.png">
                 <div class="layer">
-                    <h3>Food Ordering App</h3>
-                    <p>hjsgfusdf</p>
+                    <h3>NetFlix Clone App</h3>
+                    <p>Streams movies and shows with a sleek, responsive UI, replicating the core feel of the original platform.</p>
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="Profile_Background.png">
+                <img src="Food Delivery1.png">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>hjsgfusdf</p>
+                    <h3>Food Delivery App</h3>
+                    <p>A user-friendly app focusing on smooth navigation and an appealing visual experience.</p>
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
@@ -142,6 +282,7 @@
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/shalini-a-r-k-162028225/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/SHALINI-ARK"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-code"></i></a>
                 </div>
                 <a href="" download class="btn btn2">Download CV</a>
             </div>
@@ -156,9 +297,9 @@
             </div>
         </div>
     </div>
-    <div class="copyright">
+    <!-- <div class="copyright">
         <p>Copyright @ Shalini A R K <i class="fa-solid fa-heart"></i></p>
-    </div>
+    </div> -->
 </div>
 
    <script>
